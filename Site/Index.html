@@ -10,53 +10,14 @@
 <body>
 
 	<div class="container">
-		<h1>Modal</h1>
+		<h1>Collapse</h1>
 
-		<button class="btn btn-secondary" data-nome="Anna" data-toggle="modal" data-target="#conteudoModal">Mensagem para Anna</button>
+		<input type="button" class="btn btn-warning" data-toggle="collapse" data-target="#secreto" value="Mostre +">
 
-		<button class="btn btn-secondary" data-nome="Debora" data-toggle="modal" data-target="#conteudoModal">Mensagem para Debora</button>
-
-		<!-- Modal -->
-		<div id="conteudoModal" class="modal fade">
-			<div class="modal-dialog modal-xl">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title">Modal</h4>
-						<button class="close" data-dismiss="modal" arial-label="Fechar">
-							<span arial-hidden="true">
-							&times;
-						</span>
-						</button>
-					</div>
-					<!--conteudo-->
-					<div class="modal-body">
-						<div class="row">
-							<div class="col-4">
-								<span>Destinatário:</span>
-							</div>
-
-							<div class="col-8">
-								<input type="text" name="para" class="form-control">
-							</div>
-						</div><br>
-						<div class="row">
-							<div class="col-4">
-								<span>Mensagem:</span>
-							</div>
-							<div class="col-8">
-								<textarea class="form-control"></textarea>
-							</div>
-						</div>
-					</div>
-
-					<!--rodape-->
-					<div class="modal-footer">
-						<button class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-					</div>
-				</div>
-			</div>
+		<div class="collapse" id="secreto">
+			Mensagem Secreta.
 		</div>
-</div>
+	</div>
 
 	<footer>
 		<!--JS-->
