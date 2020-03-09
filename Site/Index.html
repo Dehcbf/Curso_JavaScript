@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Me Contratem!;) -->
 	<title>Componentes</title>
 	<meta charset="utf-8">
 
@@ -10,41 +11,37 @@
 <body>
 
 	<div class="container">
-		<h1>Scrollspy</h1>
+		<h1>Carrosel</h1>
 
-		<div class="row">
-			<div class="col-4">
-				<div id="Livro" class="list-group">
-					<a class="list-group-item list-group-item-action" href="#c1">Capítulo 1</a>
+		<div id="slideshow" class="carousel slide" data-ride="carousel">
 
-					<a class="list-group-item list-group-item-action" href="#c2">Capítulo 2</a>
-
-					<a class="list-group-item list-group-item-action" href="#c3">Capítulo 3</a>
-
-					<a class="list-group-item list-group-item-action" href="#c4">Capítulo 4</a>
-
-					<a class="list-group-item list-group-item-action" href="#c5">Capítulo 5</a>
+			<div class="carousel-inner">
+				<!--Imagem 1-->
+				<div class="carousel-item active">
+					<img src="img/img1.png">
 				</div>
-			</div>
+
+				<!--Imagem 2-->
+				<div class="carousel-item">
+					<img src="img/img2.jpg">
+				</div>
+
+				<!--Imagem 3-->
+				<div class="carousel-item">
+					<img src="img/img3.png">
+				</div>
+			</div>	
 		
-			<div class="col-8" id="caixalivro" style="position: relative; height: 500px; overflow: auto;">
-				<div data-spy="scroll" data-target="#Livro" data-offset="0">
-					<h3 id="c1">Capítulo 1</h3>
-					<p>Desde pequeno fora fisgado pelo ideal do “sonho americano”, mesmo nascendo em um país tão visitado e comentado como a Itália. Estava fascinado com tamanho patriotismo daquele lugar, da enorme influência sobre o restante do mundo. Como resultado, fez o possível e o impossível para conseguir um intercâmbio quando entrou na faculdade, mas só conseguiu ir a tão sonhada América quando a sua irmã pôde ir junto. Imaginou que faria parte das tão faladas festas, fazer vários amigos, ter um emprego razoável e que pudesse pagar as contas até se formar e conseguir um emprego melhor. Eram ambições simples para um homem simples. Até sua irmã conhecer a maldita compulsão. Ela era tão deslumbrada quanto a si próprio, mas por outros motivos. As maiores grifes atuavam muito nos Estados Unidos, e mesmo que pudessem ir a França o quanto quiserem, os EUA era diferente! Nos primeiros meses, quem mais chamou atenção fora ela, criando amizade muito rápido com boa parte do seus colegas do curso de moda, não sendo difícil se estender ao campus. Com as amizades, começaram a vir os gastos.</p>
 
-					<h3 id="c2">Capítulo 2</h3>
-					<p>Desde pequeno fora fisgado pelo ideal do “sonho americano”, mesmo nascendo em um país tão visitado e comentado como a Itália. Estava fascinado com tamanho patriotismo daquele lugar, da enorme influência sobre o restante do mundo. Como resultado, fez o possível e o impossível para conseguir um intercâmbio quando entrou na faculdade, mas só conseguiu ir a tão sonhada América quando a sua irmã pôde ir junto. Imaginou que faria parte das tão faladas festas, fazer vários amigos, ter um emprego razoável e que pudesse pagar as contas até se formar e conseguir um emprego melhor. Eram ambições simples para um homem simples. Até sua irmã conhecer a maldita compulsão. Ela era tão deslumbrada quanto a si próprio, mas por outros motivos. As maiores grifes atuavam muito nos Estados Unidos, e mesmo que pudessem ir a França o quanto quiserem, os EUA era diferente! Nos primeiros meses, quem mais chamou atenção fora ela, criando amizade muito rápido com boa parte do seus colegas do curso de moda, não sendo difícil se estender ao campus. Com as amizades, começaram a vir os gastos.</p>
+			<!--Voltar-->
+			<a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
 
-					<h3 id="c3">Capítulo 3</h3>
-					<p>Desde pequeno fora fisgado pelo ideal do “sonho americano”, mesmo nascendo em um país tão visitado e comentado como a Itália. Estava fascinado com tamanho patriotismo daquele lugar, da enorme influência sobre o restante do mundo. Como resultado, fez o possível e o impossível para conseguir um intercâmbio quando entrou na faculdade, mas só conseguiu ir a tão sonhada América quando a sua irmã pôde ir junto. Imaginou que faria parte das tão faladas festas, fazer vários amigos, ter um emprego razoável e que pudesse pagar as contas até se formar e conseguir um emprego melhor. Eram ambições simples para um homem simples. Até sua irmã conhecer a maldita compulsão. Ela era tão deslumbrada quanto a si próprio, mas por outros motivos. As maiores grifes atuavam muito nos Estados Unidos, e mesmo que pudessem ir a França o quanto quiserem, os EUA era diferente! Nos primeiros meses, quem mais chamou atenção fora ela, criando amizade muito rápido com boa parte do seus colegas do curso de moda, não sendo difícil se estender ao campus. Com as amizades, começaram a vir os gastos.</p>
-
-					<h3 id="c4">Capítulo 4</h3>
-					<p>Desde pequeno fora fisgado pelo ideal do “sonho americano”, mesmo nascendo em um país tão visitado e comentado como a Itália. Estava fascinado com tamanho patriotismo daquele lugar, da enorme influência sobre o restante do mundo. Como resultado, fez o possível e o impossível para conseguir um intercâmbio quando entrou na faculdade, mas só conseguiu ir a tão sonhada América quando a sua irmã pôde ir junto. Imaginou que faria parte das tão faladas festas, fazer vários amigos, ter um emprego razoável e que pudesse pagar as contas até se formar e conseguir um emprego melhor. Eram ambições simples para um homem simples. Até sua irmã conhecer a maldita compulsão. Ela era tão deslumbrada quanto a si próprio, mas por outros motivos. As maiores grifes atuavam muito nos Estados Unidos, e mesmo que pudessem ir a França o quanto quiserem, os EUA era diferente! Nos primeiros meses, quem mais chamou atenção fora ela, criando amizade muito rápido com boa parte do seus colegas do curso de moda, não sendo difícil se estender ao campus. Com as amizades, começaram a vir os gastos.</p>
-
-					<h3 id="c5">Capítulo 5</h3>
-					<p>Desde pequeno fora fisgado pelo ideal do “sonho americano”, mesmo nascendo em um país tão visitado e comentado como a Itália. Estava fascinado com tamanho patriotismo daquele lugar, da enorme influência sobre o restante do mundo. Como resultado, fez o possível e o impossível para conseguir um intercâmbio quando entrou na faculdade, mas só conseguiu ir a tão sonhada América quando a sua irmã pôde ir junto. Imaginou que faria parte das tão faladas festas, fazer vários amigos, ter um emprego razoável e que pudesse pagar as contas até se formar e conseguir um emprego melhor. Eram ambições simples para um homem simples. Até sua irmã conhecer a maldita compulsão. Ela era tão deslumbrada quanto a si próprio, mas por outros motivos. As maiores grifes atuavam muito nos Estados Unidos, e mesmo que pudessem ir a França o quanto quiserem, os EUA era diferente! Nos primeiros meses, quem mais chamou atenção fora ela, criando amizade muito rápido com boa parte do seus colegas do curso de moda, não sendo difícil se estender ao campus. Com as amizades, começaram a vir os gastos.</p>
-				</div>
-			</div>
+			<!--avançar-->
+			<a class="carousel-control-next" href="#slideshow" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
 		</div>
 	</div>
 
@@ -52,11 +49,6 @@
 		<!--JS-->
 		<script src="bootstrap/js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
-		<script type="text/javascript">
-			$('#caixalivro').scrollspy({target: '#Livro'});
-		</script>
-
 	</footer>
 
 </body>
